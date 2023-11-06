@@ -4,7 +4,7 @@ from src.models import db
 app = Flask(__name__)
 
 # TODO: DB connection
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:admin@localhost/itsc3155"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://username:password@localhost/itsc3155"
 
 db.init_app(app)
 
